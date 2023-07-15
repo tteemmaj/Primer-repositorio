@@ -1,0 +1,83 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-text: #0b1e3d;
+    --text-foureground: #e9c557;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1055%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c408.393C76.987%2c407.038%2c154.887%2c381.789%2c212.614%2c330.833C266.856%2c282.953%2c271.172%2c203.251%2c304.91%2c139.248C341.345%2c70.13%2c427.342%2c17.453%2c418.745%2c-60.206C410.18%2c-137.579%2c318.269%2c-172.931%2c264.155%2c-228.892C213.559%2c-281.214%2c177.268%2c-348.046%2c111.095%2c-378.354C39.566%2c-411.115%2c-42.106%2c-422.235%2c-118.696%2c-404.242C-197.499%2c-385.729%2c-266.974%2c-338.443%2c-319.814%2c-277.12C-372.563%2c-215.902%2c-425.964%2c-139.878%2c-415.535%2c-59.745C-405.241%2c19.35%2c-303.352%2c50.899%2c-267.828%2c122.313C-234.207%2c189.901%2c-269.071%2c283.296%2c-217.479%2c338.404C-164.356%2c395.147%2c-77.717%2c409.761%2c0%2c408.393' fill='%230b2036'%3e%3c/path%3e%3cpath d='M1440 1205.5059999999999C1559.851 1206.9740000000002 1669.66 1136.551 1759.634 1057.3600000000001 1841.712 985.1179999999999 1871.785 877.1949999999999 1922.8600000000001 780.515 1977.574 676.947 2079.5299999999997 586.147 2070.255 469.383 2060.917 351.827 1950.184 273.904 1875.377 182.743 1798.3319999999999 88.85500000000002 1743.503-42.89599999999996 1625.683-72.37800000000004 1508.0529999999999-101.81200000000001 1397.246-12.809999999999945 1285.9180000000001 35.245000000000005 1188.135 77.452 1096.394 123.17700000000002 1014.604 191.392 919.253 270.918 780.783 340.099 771.912 463.944 762.944 589.143 908.066 665.841 972.923 773.307 1028.395 865.222 1046.56 976.679 1125.358 1049.593 1213.047 1130.734 1320.538 1204.0430000000001 1440 1205.5059999999999' fill='%23113458'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1055'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main{
+    width: 600px;
+    height: 400px;
+    background: var(--text-foureground);
+    border-radius: 5px;;
+    padding: 10px;
+    box-sizing: border-box;
+    color: var(--background-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+input{
+    width: 30%;
+    height: 60px;
+    font-size: 25px;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button{
+    width: 30%;
+    height: 60px;
+    font-size: 25px;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background: var(--background-text);
+    color: #fff;
+    border-radius: 5px;
+}
+
+span{
+    width: 100%;
+    height: 40px;
+}
+
+@media (max-width: 768px){
+    body{
+        width: 100%;
+        height: 85vh;
+    }
+    main{
+        width: 90%;
+    }
+    
+    button{
+        font-size: 20px;
+    }
+}
